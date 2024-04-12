@@ -23,4 +23,12 @@ public class Constant {
             entry(POSITIVE_INPUT, POSITIVE_INPUT_EXPECTED),
             entry(NEGATIVE_INPUT, NEGATIVE_INPUT_EXPECTED)
     );
+
+    public static final Integer PRIME_INPUT_TRUE = 31;
+    public static final Integer PRIME_INPUT_FALSE = 32;
+    public static final List<Integer> PRIME_INPUT_LIST = List.of(PRIME_INPUT_TRUE, PRIME_INPUT_FALSE);
+    public static final Map<Integer, Boolean> PRIME_EXPECTED_MAP = Map.ofEntries(
+            entry(PRIME_INPUT_TRUE, true),
+            entry(PRIME_INPUT_FALSE, false)
+    );
 }

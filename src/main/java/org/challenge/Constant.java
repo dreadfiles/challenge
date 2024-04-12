@@ -5,4 +5,6 @@ public class Constant {
     public static final String ITEM_NEGATIVE = "-";
     public static final String ITEM_DELIMITER = "";
     public static final int ITEM_FIRST_POSITION = 0;
+
+    public static final int PRIME_COUNTER = 2;
 }
