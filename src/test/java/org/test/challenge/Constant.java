@@ -31,4 +31,7 @@ public class Constant {
             entry(PRIME_INPUT_TRUE, true),
             entry(PRIME_INPUT_FALSE, false)
     );
+
+    public static final int[] DUPLICATE_REMOVER_INPUT = {0, 0, 0, 1, 1, 1, 2, 2, 3, 4, 5, 5, 5, 5, 5, 6, 6, 7, 8, 8, 8};
+    public static final int[] DUPLICATE_REMOVER_EXPECTED_OUTPUT = {0, 0, 1, 1, 2, 2, 3, 4, 5, 5, 6, 6, 7, 8, 8, 0, 0, 0, 0, 0, 0};
 }
