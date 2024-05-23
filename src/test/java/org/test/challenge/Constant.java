@@ -34,4 +34,8 @@ public class Constant {
 
     public static final int[] DUPLICATE_REMOVER_INPUT = {0, 0, 0, 1, 1, 1, 2, 2, 3, 4, 5, 5, 5, 5, 5, 6, 6, 7, 8, 8, 8};
     public static final int[] DUPLICATE_REMOVER_EXPECTED_OUTPUT = {0, 0, 1, 1, 2, 2, 3, 4, 5, 5, 6, 6, 7, 8, 8, 0, 0, 0, 0, 0, 0};
+
+    public static final int[] PAIR_SUM_INPUT_ARRAY = {1, 5, 7, 2, 4, 6};
+    public static final int PAIR_SUM_INPUT_VALUE = 6;
+    public static final int PAIR_SUM_EXPECTED_OUTPUT = 2;
 }
