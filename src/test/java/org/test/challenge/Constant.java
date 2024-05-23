@@ -38,4 +38,12 @@ public class Constant {
     public static final int[] PAIR_SUM_INPUT_ARRAY = {1, 5, 7, 2, 4, 6};
     public static final int PAIR_SUM_INPUT_VALUE = 6;
     public static final int PAIR_SUM_EXPECTED_OUTPUT = 2;
+
+    public static final String QUOTA_VALIDATOR_VALID_INPUT = "{}{}HELLO{[((({})))]}[HI]{()()[(OK)]}";
+    public static final String QUOTA_VALIDATOR_INVALID_INPUT = "{}{}HELLO{[((({})){)]}[HI]{()()[(OK)]}";
+    public static final List<String> QUOTA_VALIDATOR_INPUT_LIST = List.of(QUOTA_VALIDATOR_VALID_INPUT, QUOTA_VALIDATOR_INVALID_INPUT);
+    public static final Map<String, Boolean> QUOTA_VALIDATOR_EXPECTED_MAP = Map.ofEntries(
+            entry(QUOTA_VALIDATOR_VALID_INPUT, true),
+            entry(QUOTA_VALIDATOR_INVALID_INPUT, false)
+    );
 }
