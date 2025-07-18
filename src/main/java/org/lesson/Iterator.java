@@ -29,7 +29,7 @@ public class Iterator {
         mapStringLong.forEach((k, v) -> System.out.println(k + "--" + v));
 
         List<Long> listLong = List.of(1L, 2L, 5L, 8L);
-        for(Long item : listLong){
+        for (Long item : listLong) {
             System.out.println("item = " + item);
         }
 

@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class ConverterListToMap {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         System.out.println("Start");
 
         List<Long> listLong = List.of(1L, 2L, 3L, 4L, 3L, 2L, 1L, 5L, 1L);
@@ -21,7 +21,7 @@ public class ConverterListToMap {
         System.out.println("mapStringFromList = " + mapStringFromList);
 
         Map<String, Long> mapStringLongEntry = Map.ofEntries(Map.entry("A", 2L), Map.entry("B", 3L));
-        Map<String, Long> mapStringLongOf = Map.of("A", 2L,"B", 3L);
+        Map<String, Long> mapStringLongOf = Map.of("A", 2L, "B", 3L);
         Map<String, Long> mapStringLongPut = new HashMap<>();
         mapStringLongPut.put("A", 2L);
         mapStringLongPut.put("B", 3L);
